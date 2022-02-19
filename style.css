@@ -11,14 +11,15 @@ body{
 }
 
 .conteiner{
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 350px;
 	margin: auto;
 	align-items: center;
 	background: #fff;
 	box-shadow: 2px 2px 2px 4px rgba( 0,0,0,0.5);
 	border-radius: 12px;
 	border: 1px solid;
+	background: linear-gradient(to right, #000046,#1CB5E0);
 }
 
 header .titulo{
@@ -42,8 +43,12 @@ header .titulo{
 	border: 1px solid;
 	border-right: none;
 	border-left: none;
-
 	outline: none;
+
+	background: linear-gradient(to right, #000046,#1CB5E0);
+
+
+	margin: 0 auto 30px;
 }
 .resultado::placeholder{
 	text-align: center;
@@ -56,6 +61,12 @@ header .titulo{
 }
 
 .area_button .global{
-	width: 15%;
-	height: ;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.877),rgba(0, 110, 255, 0.644));
+	width: 60px;
+	height: 30px;
+	margin: 5px;
+	border: 1px solid;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight: 700;
 }
