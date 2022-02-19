@@ -55,16 +55,15 @@ header .titulo{
 	outline: none;
 
 	background: linear-gradient(to right, #000046,#1CB5E0);
-
-
-	
 }
+
 .resultado::placeholder{
 	text-align: center;
 	color:#fff;
 	font-size: 20px;
 	text-transform: uppercase;
 }
+
 .area_button{
 	display: var(--main-display);
 	justify-content: var(--main-justify-content);
@@ -107,4 +106,10 @@ header .titulo{
 .calcular_valor{
 	border-top-left-radius: var(--border-radius);
 	border-bottom-right-radius: var(--border-radius);
+}
+
+.conteiner  .global:hover{
+    color:#fff;
+    -webkit-transform: scale(1.5);
+    
 }
