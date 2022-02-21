@@ -49,11 +49,13 @@ header .titulo{
 	height: 20%;
 	border-top-left-radius: var(--border-radius);
 	border-top-right-radius: var(--border-radius);
-	border: 1px solid;
+	border: 1px solid #000;
 	border-right: none;
 	border-left: none;
 	outline: none;
-
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
 	background: linear-gradient(to right, #000046,#1CB5E0);
 }
 
