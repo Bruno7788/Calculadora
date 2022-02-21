@@ -1,4 +1,4 @@
-let valor;
+let valor; 
 let resultado;
 
 function botao(num){
@@ -6,7 +6,7 @@ function botao(num){
 }
 
 function resetar(){
-	document.calc.visor.value = '' 
+	document.calc.visor.value = ""
 }
 
 function calcular(){
